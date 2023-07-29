@@ -1,7 +1,7 @@
 import 'package:endeavour/constant/style.dart';
 import 'package:endeavour/model/hive_movie_model.dart';
 import 'package:endeavour/model/hive_tv_model.dart';
-import 'package:endeavour/screens/home_screen.dart';
+import 'package:endeavour/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:hive_flutter/hive_flutter.dart';  
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Style.primaryColor,
         appBarTheme: const AppBarTheme(backgroundColor: Style.primaryColor),
       ),
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }
