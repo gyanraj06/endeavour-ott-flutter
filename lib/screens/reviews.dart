@@ -27,7 +27,7 @@ class _ReviewsState extends State<Reviews> {
             child: Text(
               "REVIEWS",
               style: TextStyle(
-                color: Style.textColor,
+                color: Color.fromARGB(255, 244, 239, 239),
                 fontWeight: FontWeight.w600,
                 fontSize: 12,
               ),
@@ -58,15 +58,15 @@ class _ReviewsState extends State<Reviews> {
   }
 
   Widget _buildLoadingWidget() {
-    return Center(
+    return const Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: const <Widget>[
+        children: <Widget>[
           SizedBox(
             width: 25.0,
             height: 25.0,
             child: CircularProgressIndicator(
-              valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+              valueColor: AlwaysStoppedAnimation<Color>(Color.fromARGB(255, 241, 0, 0)),
               strokeWidth: 4.0,
             ),
           )
@@ -107,7 +107,7 @@ class _ReviewsState extends State<Reviews> {
       return Column(
         children: List.generate(reviews.length, (index) {
           return Card(
-            color: Style.textColor,
+            color: const Color.fromARGB(255, 0, 0, 0),
             margin: const EdgeInsets.symmetric(vertical: 10),
             elevation: 5,
             child: ListTile(

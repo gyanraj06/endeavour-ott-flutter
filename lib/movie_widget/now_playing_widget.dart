@@ -36,10 +36,10 @@ class _NowPlayingState extends State<NowPlaying> {
 
   //methods here!!!!!!!!!!!!!!!!!!!!
   Widget _buildLoadingWidget() {
-    return Center(
+    return const Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: const <Widget>[
+        children: <Widget>[
           SizedBox(
             width: 25.0,
             height: 25.0,
@@ -78,7 +78,7 @@ class _NowPlayingState extends State<NowPlaying> {
     if (movies!.isEmpty) {
       return SizedBox(
         width: MediaQuery.of(context).size.width,
-        height: 220,
+        height: 500,
         child: const Center(
           child: Text(
             'No Movies Found',

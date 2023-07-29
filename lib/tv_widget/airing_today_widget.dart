@@ -36,10 +36,10 @@ class _AiringTodayState extends State<AiringToday> {
 
   //methods here!!!!!!!!!!!!!!!!!!!!
   Widget _buildLoadingWidget() {
-    return Center(
+    return const Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: const <Widget>[
+        children: <Widget>[
           SizedBox(
             width: 25.0,
             height: 25.0,

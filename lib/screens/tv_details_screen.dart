@@ -40,7 +40,6 @@ class _TVsScreenState extends State<TVsDetailsScreen> {
             children: <Widget>[
               //banner
               Stack(
-                overflow: Overflow.visible,
                 children: [
                   Hero(
                     tag: widget.request == null

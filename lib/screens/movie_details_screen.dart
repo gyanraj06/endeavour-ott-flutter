@@ -46,7 +46,6 @@ class _MoviesDetailsScreenState extends State<MoviesDetailsScreen> {
         child: Column(
           children: <Widget>[
             Stack(
-              overflow: Overflow.visible,
               children: [
                 _buildBackDrop(),
                 Positioned(
