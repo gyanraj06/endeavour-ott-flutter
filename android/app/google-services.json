@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "723965658410",
+    "firebase_url": "https://endeavour-40499-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "endeavour-40499",
+    "storage_bucket": "endeavour-40499.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723965658410:android:63f2ba8a1f3677bdae0a53",
+        "android_client_info": {
+          "package_name": "com.example.endeavour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723965658410-01fldta886fqeduv8eq5gf7k3k81eisl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAROvrgXde9H7PEwq-6Ssv2ApmE2jqn_4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723965658410-01fldta886fqeduv8eq5gf7k3k81eisl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
