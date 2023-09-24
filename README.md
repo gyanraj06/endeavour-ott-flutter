@@ -4,7 +4,7 @@
 ## Interface
 ![4](https://github.com/gyanraj06/endeavour-ott-flutter/assets/64907746/b549dd09-fc39-4091-bd03-89192c6442ba)
 
-![5](https://github.com/gyanraj06/endeavour-ott-flutter/assets/64907746/4bd956d6-ff3c-49e1-907c-f4bba21a4ebf)
+![5](https://github.com/gyanraj06/endeavour-ott-flutter/assets/64907746/7a4b3587-d7f9-48d4-9ae3-e20eaed99ed2)
 
 ## Technology Used
 ✔ Flutter (Dart)
